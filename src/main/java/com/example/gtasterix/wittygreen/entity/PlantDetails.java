@@ -18,18 +18,18 @@ public class PlantDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "plant_details_id")
-    private int plantDetailsId;
+    private Integer plantDetailsId;
 
     @Column(name = "plant_id", nullable = false)
-    private int plantId;
+    private Integer plantId;
 
     @Column(name = "area", nullable = false)
     private String area;
 
     @Column(name = "no_of_racks")
-    private int noOfRacks;
+    private Integer noOfRacks;
 
     @Column(name = "no_of_blocks")
-    private int noOfBlocks;
+    private Integer noOfBlocks;
 }
 

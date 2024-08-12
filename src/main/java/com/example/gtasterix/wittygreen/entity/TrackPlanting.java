@@ -20,10 +20,10 @@ public class TrackPlanting {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "tray_id")
-    private int trayId;
+    private Integer trayId;
 
     @Column(name = "food_id", nullable = false)
-    private int foodId;
+    private Integer foodId;
 
     @Column(name = "plant_date")
     private LocalDateTime plantDate;

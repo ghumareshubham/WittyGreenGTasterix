@@ -18,11 +18,11 @@ public class Pincode {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "pincode_id")
-    private int pincodeId;
+    private Integer pincodeId;
 
     @Column(name = "pincode", nullable = false)
     private String pincode;
 
     @Column(name = "area_id", nullable = false)
-    private int areaId;
+    private Integer areaId;
 }

@@ -18,19 +18,19 @@ public class TrayDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "tray_id")
-    private int trayId;
+    private Integer trayId;
 
     @Column(name = "tray_identity", nullable = false, unique = true)
     private String trayIdentity;
 
     @Column(name = "block_id", nullable = false)
-    private int blockId;
+    private Integer blockId;
 
     @Column(name = "width", nullable = false)
-    private double width;
+    private Double width;
 
     @Column(name = "height", nullable = false)
-    private double height;
+    private Double height;
 
 
 

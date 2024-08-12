@@ -21,7 +21,7 @@ public class PlantRegistration {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "plant_id")
-    private int plantId;
+    private Integer plantId;
 
     @Column(name = "plant_name", nullable = false)
     private String plantName;
@@ -45,10 +45,10 @@ public class PlantRegistration {
     private LocalDateTime createdDtm;
 
     @Column(name = "latitude")
-    private double latitude;
+    private Double latitude;
 
     @Column(name = "longitude")
-    private double longitude;
+    private Double longitude;
 
 //    // Password encryption logic (assumes you handle this elsewhere)
 //    @Transient // Exclude from persistence

@@ -19,11 +19,11 @@ public class Area {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "area_id")
-    private int areaId;
+    private Integer areaId;
 
     @Column(name = "area", nullable = false)
     private String area;
 
     @Column(name = "city_id", nullable = false)
-    private int cityId;
+    private Integer cityId;
 }

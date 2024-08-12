@@ -18,14 +18,14 @@ public class RackDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "rack_id")
-    private int rackId;
+    private Integer rackId;
 
     @Column(name = "rack_identity", nullable = false, unique = true)
     private String rackIdentity;
 
     @Column(name = "rack_width", nullable = false)
-    private double rackWidth;
+    private Double rackWidth;
 
     @Column(name = "height", nullable = false)
-    private double height;
+    private Double height;
 }

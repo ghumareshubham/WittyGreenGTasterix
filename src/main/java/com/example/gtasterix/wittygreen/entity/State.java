@@ -20,11 +20,11 @@ public class State {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "state_id")
-    private int stateId;
+    private Integer stateId;
 
     @Column(name = "state", nullable = false)
     private String state;
 
     @Column(name = "country_id", nullable = false)
-    private int countryId;
+    private Integer countryId;
 }

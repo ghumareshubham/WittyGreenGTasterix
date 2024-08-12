@@ -20,13 +20,13 @@ public class BlockDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "block_id")
-    private int blockId;
+    private Integer blockId;
 
     @Column(name = "block_identity", nullable = false, unique = true)
     private String blockIdentity;
 
     @Column(name = "rack_id", nullable = false)
-    private int rackId;
+    private Integer rackId;
 
 //    // Optional: If you want to set up a relationship with Rack entity
 //    @ManyToOne
